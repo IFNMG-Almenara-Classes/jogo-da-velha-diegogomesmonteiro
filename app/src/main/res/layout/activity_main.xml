@@ -94,7 +94,7 @@
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:tag="0"/>
 
             <ImageView
@@ -106,7 +106,7 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="1"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
 
             <ImageView
@@ -118,7 +118,7 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="2"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
         </TableRow>
 
@@ -136,7 +136,7 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="3"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
 
             <ImageView
@@ -148,7 +148,7 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="4"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
 
             <ImageView
@@ -160,7 +160,7 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="5"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
         </TableRow>
 
@@ -178,7 +178,7 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="6"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
 
             <ImageView
@@ -190,7 +190,7 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="7"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
 
             <ImageView
@@ -202,7 +202,7 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="8"
-                android:src="@mipmap/letra_opcao"
+                android:src="@drawable/ponto"
                 android:layout_margin="6dp"/>
         </TableRow>
 

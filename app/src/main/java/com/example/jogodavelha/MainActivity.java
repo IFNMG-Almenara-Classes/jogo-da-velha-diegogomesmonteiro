@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements JogoDaVelhaEvento
         for(int i=0; i<9 ; i++){
             int btnId = getResources().getIdentifier("btn_"+i, "id", this.getPackageName());
             ImageView btn = findViewById(btnId);
-            btn.setImageResource(R.mipmap.letra_opcao);
+            btn.setImageResource(R.drawable.ponto);
         }
     }
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements JogoDaVelhaEvento
     public void onJogadaRealizada(int posicao, Jogador jogador) {
         int btnId = getResources().getIdentifier("btn_"+posicao, "id", this.getPackageName());
         ImageView btn = findViewById(btnId);
-        btn.setImageResource(jogador == Jogador.JOGADOR1?R.mipmap.letra_x:R.mipmap.letra_o);
+        btn.setImageResource(jogador == Jogador.JOGADOR1?R.drawable.letra_x:R.drawable.letra_o);
     }
 
     @Override
